@@ -1,0 +1,20 @@
+{
+  "name": "frontendler-cli",
+  "version": "1.0.0",
+  "description": "Frontendler command line tools",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "homepage": "http://frontendler.com.br/",
+  "author": "Daniel Beff",
+  "preferGlobal": true,
+  "bin": {
+    "frontendler": "index.js"
+  },
+  "devDependencies": {
+    "chalk": "^1.1.1",
+    "inquirer": "^0.11.0",
+    "shelljs": "^0.5.3"
+  }
+}
