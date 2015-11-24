@@ -26,11 +26,6 @@ switch (args[0]) {
         commands.help();
         break;
     case "watch":
-        // console.log(chalk.red("Watch command!"));
-        if (!which("gulp")) {
-            echo("Sorry, this script requires gulp. Run 'npm install --global gulp'");
-            exit(1);
-        }
         exec("gulp watch");
         break;
     case "build":
