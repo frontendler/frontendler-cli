@@ -6,7 +6,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "license": "MIT",
-  "homepage": "http://frontendler.com.br/",
+  "homepage": "http://frontendler.io",
   "author": "Daniel Beff",
   "preferGlobal": true,
   "bin": {
